@@ -1,26 +1,26 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '0bc9e57e0cc540c2a1f4d92f80f0d497',
+  rootNotionPageId: 'f5d7beb567604990bbe6f0b6fa0317b6',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Design Systems Brasileiros',
-  domain: 'designsystemsbrasileiros.com',
-  author: 'Bruna Bites',
-  personalGithub: 'brunabites',
+  name: 'Romy von Erlea',
+  domain: 'romyvonerlea.com',
+  author: 'Romy von Erlea',
+  personalGithub: 'hey-romy',
   
   // open graph metadata (optional)
-  description: 'Uma lista de Design Systems construídos no Brasil!',
-  socialImageTitle: 'Design Systems Brasileiros',
-  socialImageSubtitle: 'Uma lista de Design Systems construídos no Brasil! 🇧🇷',
+  description: 'Product Designer Portfolio',
+  socialImageTitle: 'Romy von Erlea',
+  socialImageSubtitle: 'Hey, check out my portfolio!',
 
   // social usernames (optional)
   // twitter: 'brunabites',
-  github: 'brunabites/designsystemsbrasileiros',
-  linkedin: 'brunabites',
+  github: 'hey-romy',
+  linkedin: 'romyvonerlea',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
