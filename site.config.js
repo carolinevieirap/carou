@@ -50,7 +50,7 @@ module.exports = {
   // }
 
   pageUrlOverrides: {
-    '/compress': '0bc9e57e0cc540c2a1f4d92f80f0d497',
+    '/compress': 'f342df6a2cef4a08ac5d4cefcfdc899b',
   }
 
   // pageUrlOverrides: null
