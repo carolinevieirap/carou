@@ -1,9 +1,9 @@
-# Brazilian Design Systems
-A list of Design Systems built in Brazil 🇧🇷
+# Romy's Portfolio
+A way to integrate Notion and Vercel.
 
 ## Intro
 
-This repo is used to power the site [Design Systems Brasileiros](https://designsystemsbrasileiros.com). If you would like to suggest a Design System, please fill in [this form](https://forms.gle/wDTJ14CzUWtJYekG8).
+This repo is used to power my product design portfolio.
 
 
 ## About the repo / License
