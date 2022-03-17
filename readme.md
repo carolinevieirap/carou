@@ -1,5 +1,5 @@
-# Romy's Portfolio
-A way to integrate Notion and Vercel.
+# My Portfolio
+A way to build a portfolio for free using Notion and Vercel.
 
 ## Intro
 
