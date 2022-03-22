@@ -190,6 +190,10 @@
   }
 }
 
+  .notion-search-button {
+    display: none !important;
+  }
+
 @media only screen and (max-width: 600px) {
   .notion-search-button {
     display: none !important;
@@ -219,7 +223,7 @@
 }
 .breadcrumbs div:first-child span.title::before,
 .breadcrumbs a.breadcrumb span.title::before{
-  content: "🇧🇷";
+  content: "";
   margin-right: 4px;
 }
 
@@ -232,14 +236,14 @@
   display: none !important;
 }
 
-.notion-row.notion-block-c5a785b6a68e45d5841c15e03cd1f2f6 {
+.notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 {
   position: fixed;
   margin: -255px 255px;
   z-index: 9999;
 }
 
 @media only screen and (max-width: 900px) {
-  .notion-row.notion-block-c5a785b6a68e45d5841c15e03cd1f2f6 {
+  .notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 {
     position: fixed;
     margin: -205px -12px;
     z-index: 1;
@@ -250,20 +254,20 @@
 }
 
 @media only screen and (max-width: 640px) {
-  .notion-row.notion-block-c5a785b6a68e45d5841c15e03cd1f2f6 {
+  .notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 {
     position: relative;
     margin: 0px;
     z-index: 1;
     background: none;
     backdrop-filter: none
   }
-  .notion-row.notion-block-c5a785b6a68e45d5841c15e03cd1f2f6 .notion-column {
+  .notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 .notion-column {
     padding-top: 4px;
     padding-bottom: 4px;
   }
 }
 
-.notion-row.notion-block-c5a785b6a68e45d5841c15e03cd1f2f6 > .notion-column {
+.notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 > .notion-column {
   display: block;
   width: min-content !important;
   font-size: .9em;
@@ -332,7 +336,7 @@ h4.notion-block-d01146f637be46e6846957f1fe81d6b6 {
   }
 }
 
-.notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
+.notion-block-da75bf40db5b40fb83cc66fbd4a3043d .notion-page-link {
   justify-content: center;
   padding: 1.2em;
 }
@@ -373,7 +377,7 @@ h4.notion-block-d01146f637be46e6846957f1fe81d6b6 {
 
 .notion-link:hover {
   border-width: 3px !important;
-  border-image: linear-gradient(90.68deg, #ebae54 0.26%, #e59e33 102.37%) !important;
+  border-image: linear-gradient(90.68deg, #8bc0cc 0.26%, #adedfc 102.37%) !important;
   border-image-slice: 1 !important;
 }
 
@@ -423,7 +427,7 @@ h4.notion-block-d01146f637be46e6846957f1fe81d6b6 {
     119deg,
     var(--bg-color),
     #adedfc 10.5%,
-    #adebfd 85.29%,
+    #9edae8 85.29%,
     var(--bg-color)
   );
 }
@@ -471,10 +475,16 @@ h4.notion-block-d01146f637be46e6846957f1fe81d6b6 {
 .dark-mode .notion-orange_background,
 .dark-mode .notion-brown_background,
 .dark-mode .notion-gray_background {
-  padding: 0;
-  margin: 0;
+
   border-radius: 0;
-  background: none !important;
+  background: black;
+background-image: linear-gradient(
+    119deg,
+    var(--bg-color),
+    #3271a1 20.5%,
+    #293a47 90.29%,
+    var(--bg-color)
+  );
 }
 
 .notion-block-f382a57807bc40779860eb079d0144f2 .lazy-image-wrapper {
