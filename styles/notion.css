@@ -586,6 +586,10 @@ background-image: linear-gradient(
   backdrop-filter: saturate(180%) blur(8px);
 }
 
+.notion-bookmark {
+  border-radius: 16px;
+}
+
 .notion-bookmark:hover {
   border-image: linear-gradient(90.68deg, #8bc0cc 0.26%, #adedfc 102.37%);
   border-image-slice: 1;
