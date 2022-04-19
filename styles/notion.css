@@ -12,7 +12,7 @@
  }
 
 .notion {
-  --notion-max-width: 1080px;
+  --notion-max-width: 920px;
   --notion-header-height: 54px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .index-page {
-  --notion-max-width: 1080px;
+  --notion-max-width: 920px;
 }
 
 .notion-text {
@@ -56,11 +56,11 @@
 }
 
 .notion-gallery-grid {
-  border-top: 1px solid var(--bg-color-1);
-  padding-top: 1.5em;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  border-top: 0px solid var(--bg-color-1);
+  padding-top: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 3vmin;
-  gap: 3vmin;
+  gap: 5vmin;
 }
 
 .notion-gallery-grid .notion-page-icon {
@@ -96,13 +96,15 @@
 }
 
 .notion-collection-card-cover img {
-  border-radius: 8px 8px 0 0;
+  height: 220px;
+  border-radius: 16px;
 }
 
 .notion-collection-card {
   overflow: visible;
-  border: 1px solid var(--bg-color-2);
-  border-radius: 12px;
+  background: none;
+  border: none;
+  border-radius: 20px;
   box-shadow: 0 0 1px 0 rgb(10 16 34 / 20%);
   -webkit-box-shadow: 0 0 1px 0 rgb(10 16 34 / 20%), 0 0 0 transparent;
   -webkit-transition: -webkit-transform .2s ease,-webkit-box-shadow .2s ease;
@@ -141,7 +143,7 @@
 } */
 
 .notion-collection-card-body {
-  padding: 12px 16px;
+  padding: 40px 16px 12px 16px;
 }
 
 /* only target safari */
@@ -236,36 +238,104 @@
   display: none !important;
 }
 
-.notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 {
+ /* top menu */
+ /* item 1 */
+
+.notion-block-1d5135377202482baa394b77811dac05 .notion-page-icon {
+  display: none;
+}
+
+
+.index-page .notion-block-1d5135377202482baa394b77811dac05 {
   position: fixed;
-  margin: -255px 255px;
+  margin: -245px 285px;
+  font-size: 14px;
   z-index: 9999;
 }
 
 @media only screen and (max-width: 900px) {
-  .notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 {
+  .notion-block-1d5135377202482baa394b77811dac05 {
     position: fixed;
     margin: -205px -12px;
     z-index: 1;
-    background: hsla(0,0%,100%,.8);
-    backdrop-filter: saturate(180%) blur(16px);
+    background: none;
+    backdrop-filter: none;
     padding: 0 12px;
   }
 }
 
 @media only screen and (max-width: 640px) {
-  .notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 {
-    position: relative;
-    margin: 0px;
+  .notion-block-1d5135377202482baa394b77811dac05 {
+    display: none;
+  }
+
+}
+
+ /* item 2 */
+
+.notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 .notion-page-icon {
+  display: none;
+}
+
+
+.index-page .notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 {
+  position: fixed;
+  margin: -245px 400px;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+@media only screen and (max-width: 900px) {
+  .notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 {
+    position: fixed;
+    margin: -205px -12px;
     z-index: 1;
     background: none;
-    backdrop-filter: none
-  }
-  .notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 .notion-column {
-    padding-top: 4px;
-    padding-bottom: 4px;
+    backdrop-filter: none;
+    padding: 0 12px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 {
+    display: none;
+  }
+
+}
+
+ /* item 3 */
+
+.notion-block-1609058c46e3433c8dbb88897caf7a84 .notion-page-icon {
+  display: none;
+}
+
+
+.index-page .notion-block-1609058c46e3433c8dbb88897caf7a84 {
+  position: fixed;
+  margin: -245px 500px;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+@media only screen and (max-width: 900px) {
+  .notion-block-1609058c46e3433c8dbb88897caf7a84 {
+    position: fixed;
+    margin: -205px -12px;
+    z-index: 1;
+    background: none;
+    backdrop-filter: none;
+    padding: 0 12px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .notion-block-1609058c46e3433c8dbb88897caf7a84 {
+    display: none;
+  }
+
+}
+
+/* end of top menu */
 
 .notion-row.notion-block-ab2427f04230422e99e96b7f3c6b5cb7 > .notion-column {
   display: block;
@@ -304,6 +374,11 @@ h4.notion-block-d01146f637be46e6846957f1fe81d6b6 {
   display: none !important;
 }
 
+/* ========== HIDE CALLOUT ICON ========== */
+.notion-callout-block-icon {
+  display: none !important;
+}
+
 .notion-collection-row-property .notion-property {
   display: flex;
   justify-content: start;
@@ -317,8 +392,8 @@ h4.notion-block-d01146f637be46e6846957f1fe81d6b6 {
 .notion-page-cover {
   height: 40vh;
   max-height: 40vh;
-  max-width: 1080px;
-  border-radius: 12px;
+  max-width: 920px;
+  border-radius: 16px;
   /* box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1); */
 }
 
@@ -358,9 +433,11 @@ h4.notion-block-d01146f637be46e6846957f1fe81d6b6 {
     margin-right: 0;
 }
 
+
 .notion-page-link:hover {
   background:none !important;
   color: var(--fg-color-3);
+
 }
 
 .notion-gallery .notion-page-link:hover {
@@ -487,6 +564,7 @@ background-image: linear-gradient(
   );
 }
 
+
 .notion-block-f382a57807bc40779860eb079d0144f2 .lazy-image-wrapper {
   border-radius: 16px;
 }
@@ -509,7 +587,7 @@ background-image: linear-gradient(
 }
 
 .notion-bookmark:hover {
-  border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
+  border-image: linear-gradient(90.68deg, #8bc0cc 0.26%, #adedfc 102.37%);
   border-image-slice: 1;
 }
 
