@@ -161,6 +161,7 @@
   font-size: 1.1em;
 }
 
+
 .notion-h1,
 .notion-h2,
 .notion-h3 {
@@ -170,6 +171,7 @@
 .notion-callout {
   font-size: 14px;
   margin: 0.75em 0;
+  border-radius: 16px;
 }
 
 .notion-hr {
@@ -248,7 +250,7 @@
 
 .index-page .notion-block-1d5135377202482baa394b77811dac05 {
   position: fixed;
-  margin: -245px 285px;
+  margin: -325px 285px;
   font-size: 14px;
   z-index: 9999;
 }
@@ -280,7 +282,7 @@
 
 .index-page .notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 {
   position: fixed;
-  margin: -245px 400px;
+  margin: -325px 400px;
   font-size: 14px;
   z-index: 9999;
 }
@@ -312,7 +314,7 @@
 
 .index-page .notion-block-1609058c46e3433c8dbb88897caf7a84 {
   position: fixed;
-  margin: -245px 500px;
+  margin: -325px 500px;
   font-size: 14px;
   z-index: 9999;
 }
@@ -345,7 +347,7 @@
 
 .notion-page-no-cover h1.notion-title {
   display: block;
-  margin: 2em 0 0 !important;
+  margin: 4em 0 0 !important;
 }
 
 .notion-page-no-cover h1.notion-title::before {
@@ -375,7 +377,7 @@ h4.notion-block-d01146f637be46e6846957f1fe81d6b6 {
 }
 
 /* ========== HIDE CALLOUT ICON ========== */
-.notion-callout-block-icon {
+.notion .notion-callout-block-icon {
   display: none !important;
 }
 
@@ -591,8 +593,8 @@ background-image: linear-gradient(
 }
 
 .notion-bookmark:hover {
-  border-image: linear-gradient(90.68deg, #8bc0cc 0.26%, #adedfc 102.37%);
-  border-image-slice: 1;
+  border-color: #8bc0cc;
+  border-radius: 16px;
 }
 
 .styles_githubCorner__1WYyN,
