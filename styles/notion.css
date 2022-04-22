@@ -257,10 +257,10 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .notion-block-1d5135377202482baa394b77811dac05 {
+.index-page .notion-block-1d5135377202482baa394b77811dac05 {
     position: fixed;
-    margin: -205px -12px;
-    z-index: 1;
+    margin: -325px 305px;
+    z-index: 9999;
     background: none;
     backdrop-filter: none;
     padding: 0 12px;
@@ -268,7 +268,7 @@
 }
 
 @media only screen and (max-width: 640px) {
-  .notion-block-1d5135377202482baa394b77811dac05 {
+.index-page .notion-block-1d5135377202482baa394b77811dac05 {
     display: none;
   }
 
@@ -289,10 +289,10 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 {
+.index-page .notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 {
     position: fixed;
-    margin: -205px -12px;
-    z-index: 1;
+    margin: -325px 415px;
+    z-index: 9999;
     background: none;
     backdrop-filter: none;
     padding: 0 12px;
@@ -300,7 +300,7 @@
 }
 
 @media only screen and (max-width: 640px) {
-  .notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 {
+.index-page .notion-block-4118c8b18db740e9b8b7f0abc5e1d4d7 {
     display: none;
   }
 
@@ -321,10 +321,10 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .notion-block-1609058c46e3433c8dbb88897caf7a84 {
+.index-page .notion-block-1609058c46e3433c8dbb88897caf7a84 {
     position: fixed;
-    margin: -205px -12px;
-    z-index: 1;
+    margin: -325px 510px;
+    z-index: 9999;
     background: none;
     backdrop-filter: none;
     padding: 0 12px;
@@ -332,7 +332,7 @@
 }
 
 @media only screen and (max-width: 640px) {
-  .notion-block-1609058c46e3433c8dbb88897caf7a84 {
+.index-page .notion-block-1609058c46e3433c8dbb88897caf7a84 {
     display: none;
   }
 
