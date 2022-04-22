@@ -13,7 +13,7 @@ module.exports = {
   personalGithub: 'hey-romy',
   
   // open graph metadata (optional)
-  description: 'Product Designer Portfolio',
+  description: 'Check out my portfolio!',
   socialImageTitle: 'Romy von Erlea',
   socialImageSubtitle: 'Hey, check out my portfolio!',
 
