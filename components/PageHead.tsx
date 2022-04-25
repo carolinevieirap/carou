@@ -23,7 +23,7 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
 
       <meta name='theme-color' content='#879ea8' />
       <meta property='og:type' content='website' />
-      <meta property='og:image' content='https://romyvonerlea.com/social.png'/>
+      <meta property='og:image' content='https://romyvonerlea.com/social.png' />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:image' content='https://romyvonerlea.com/social.png' />
 
