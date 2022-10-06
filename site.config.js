@@ -49,6 +49,21 @@ module.exports = {
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
 
+  // whether to use the default notion navigation style or a custom one with links to
+  // important pages
+  //navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+    },
+    {
+      title: 'Contact',
+      pageId: '#77ce5e24193a42bda5a4e66f816e0142'
+    }
+  ]
+  
   pageUrlOverrides: {
     '/compress': 'f342df6a2cef4a08ac5d4cefcfdc899b',
   }
