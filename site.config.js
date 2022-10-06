@@ -55,18 +55,3 @@ module.exports = {
 
   // pageUrlOverrides: null
 }
-
-  // whether to use the default notion navigation style or a custom one with links to
-  // important pages
-  //navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-    },
-    {
-      title: 'Agende sua consulta',
-      pageId: '#77ce5e24193a42bda5a4e66f816e0142'
-    }
-  ]
